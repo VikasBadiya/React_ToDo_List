@@ -28,7 +28,7 @@ function TodoItem({ text, completed, onComplete, onDelete, onEdit }) {
               color: completed ? "gray" : "black",
             }}
           >
-            {text}
+            {editedText}
           </p>
         )}
 
