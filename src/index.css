@@ -1,0 +1,107 @@
+.main-body{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+}
+.todo-container-card{
+          display: flex;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          width: 70%;
+         
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          border: 1px solid gray;
+}
+
+.todo-input-container{
+          border: 1px solid gray;
+          width: 90%;
+
+}
+
+.book-icon{
+          background: #16a3b6;
+}
+
+.book-color{
+    color: #fff;
+    font-size: 25px;
+}
+.submit-btn{
+    background: #16a3b6;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter-btn-container{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 100%;
+          gap: 10px;
+}
+.filter-btn{
+          background-color: #16a3b6;
+          color: #fff;
+          width: 100%;
+          border: none;
+          padding: 10px 15px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 20px;
+}
+.todo-item-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 10px 0;
+          width: 60%;
+          list-style-type: none;
+         
+        
+}
+.todo-item{
+          border: 1px solid gray;
+          padding: 10px;
+          border-radius: 5px;
+          margin: 5px 0;
+}
+.todo-item-text{
+          font-size: 18px;
+          color: #333;
+          flex: 1;
+          margin-right: 10px;
+          margin-top: 10px;
+}
+
+.todo-item-btn{
+          background: #16a3b6;
+          color: #333;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-left: 10px;
+          font-size: 16px;
+          font-weight: bold;
+
+}
+
+.btn-green{
+          background: #28a745;
+}
+.btn-red{
+          background: #dc3545;
+}
+.btn-yellow{
+          background: #ffc107;
+}
